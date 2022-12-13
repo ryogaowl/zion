@@ -59,7 +59,7 @@ const Home = () => {
         </ul>
       </header>
       <div
-        className="block w-full md:h-screen h-650px "
+        className="block w-full h-screen  "
         style={{ backgroundImage: "url(/apartment-406901_1920.jpg)" }}
       >
         <div
