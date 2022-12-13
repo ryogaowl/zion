@@ -69,9 +69,9 @@ const Home = () => {
           data-aos-easing="ease-in"
         >
           <h2 className="md:text-3xl font-bold ">
-            洗練された心地良い
+            洗練された心地良い空間を
             <br className="md:hidden" />
-            空間を提供します
+            提供します
           </h2>
           <p className="mt-2 md:text-right md:text-base text-sm ">
             清掃のプロがあなたの空間をよりすばらしいものへと変えます
