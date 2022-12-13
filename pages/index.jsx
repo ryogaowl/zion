@@ -70,7 +70,7 @@ const Home = () => {
         >
           <h2 className="md:text-3xl font-bold ">
             洗練された心地良い
-            {/* <br className="md:hidden" /> */}
+            <br className="md:hidden" />
             空間を提供します
           </h2>
           <p className="mt-2 md:text-right md:text-base text-sm ">
