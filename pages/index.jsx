@@ -158,7 +158,7 @@ const Home = () => {
             data-aos-easing="ease-in"
           >
             <div
-              className="md:pt-0 pt-7"
+              className="md:pt-0 "
               style={{
                 position: "relative",
                 width: "100%",
