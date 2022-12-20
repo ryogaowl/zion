@@ -105,7 +105,7 @@ const Home = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in"
             >
-              <div className="mt-7">
+              <div className="mt-7 md:mt-16">
                 <p className="md:leading-7 leading-5 text-sm md:text-base">
                   ZIONは大阪を中心に美装工事をしている会社です。
                   <br />
@@ -123,13 +123,12 @@ const Home = () => {
                   className="mb-8 pb-8 pt-5"
                   style={{
                     position: "relative",
-                    // width: "400px",
-                    // height: "268px",
+                    maxWidth: "400px",
                   }}
                 >
                   <Image
                     src="/vacuum-cleaner-268179_640.jpg"
-                    layout={"responsive"}
+                    // layout={"responsive"}
                     width={600}
                     height={300}
                     alt="掃除機"
@@ -147,7 +146,9 @@ const Home = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in"
       >
-        <h2 className="text-center font-bold pt-8 text-3xl">- SERVICE -</h2>
+        <h2 className="text-center font-bold md:pt-12 pt-8 text-3xl">
+          - SERVICE -
+        </h2>
         <p className=" text-sm text-center">業務内容</p>
         <div className="mt-10 ">
           <div
@@ -156,9 +157,6 @@ const Home = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in"
           >
-            <h1 className=" text-center text-2xl font-bold mt-10 md:hidden block">
-              新築美装
-            </h1>
             <div
               className="md:pt-0 pt-7"
               style={{
@@ -175,6 +173,9 @@ const Home = () => {
               />
             </div>
             <div className=" w-full text-center">
+              <h1 className=" text-start text-xl mt-2 md:hidden block font-bold">
+                新築美装
+              </h1>
               <h1 className="text-2xl font-bold mt-10  md:block hidden">
                 新築美装
               </h1>
@@ -202,18 +203,15 @@ const Home = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in"
           >
-            <h1 className=" text-center text-2xl font-bold mt-10  md:hidden block">
-              外壁洗浄
-            </h1>
             <div
-              className="md:pt-0 pt-7"
+              className="md:pt-0 pt-7 "
               style={{
                 position: "relative",
                 width: "100%",
               }}
             >
               <Image
-                src="/service-2.jpeg"
+                src="/service-2.jpg"
                 width={600}
                 height={300}
                 quality={95}
@@ -221,6 +219,9 @@ const Home = () => {
               />
             </div>
             <div className=" w-full md:text-center">
+              <h1 className=" text-start text-xl mt-2 md:hidden block font-bold">
+                外壁洗浄
+              </h1>
               <h1 className="text-2xl font-bold mt-10 md:block hidden">
                 外壁洗浄
               </h1>
@@ -250,11 +251,8 @@ const Home = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in"
           >
-            <h1 className=" text-center text-2xl font-bold mt-10 md:hidden block">
-              ハウスクリーニング
-            </h1>
             <div
-              className="md:pt-0 pt-7"
+              className="md:pt-0 pt-7 "
               style={{
                 position: "relative",
                 width: "100%",
@@ -270,6 +268,9 @@ const Home = () => {
             </div>
             {/* 画像 */}
             <div className=" w-full md:text-center">
+              <h1 className=" text-start text-xl mt-2 md:hidden block font-bold">
+                ハウスクリーニング
+              </h1>
               <h1 className="text-2xl font-bold mt-10 md:block hidden">
                 ハウスクリーニング
               </h1>
@@ -296,15 +297,17 @@ const Home = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in"
       >
-        <h2 className="text-center font-bold pt-8 text-3xl">- WORKS -</h2>
+        <h2 className="text-center font-bold md:pt-14 pt-24 text-3xl">
+          - WORKS -
+        </h2>
         <p className=" text-sm text-center">施工実績</p>
         <div
-          className="flex justify-between mx-auto px-24 mt-10"
+          className="md:flex justify-between mx-auto md:px-24 mt-10  px-8 "
           data-aos="fade-in"
           data-aos-duration="500"
           data-aos-easing="ease-in"
         >
-          <div className="w-works  shadow-xl mb-6 ">
+          <div className="md:w-works  shadow-xl mb-6 md:block  w-full">
             <div
               style={{
                 position: "relative",
@@ -320,13 +323,13 @@ const Home = () => {
                 〇〇マンションの新築美装を行いました
               </p>
               <Link href="/" className="hover:opacity-80">
-                <p className="text-detail text-end mr-10 mt-3 mb-3">
+                <p className="text-detail text-end mr-10 mt-3 mb-3 md:pb-0 pb-3">
                   詳細を見る
                 </p>
               </Link>{" "}
             </div>
           </div>
-          <div className="w-works  shadow-xl mb-6">
+          <div className="md:w-works w-full  shadow-xl mb-6">
             <div
               style={{
                 position: "relative",
@@ -342,13 +345,13 @@ const Home = () => {
                 〇〇マンションの新築美装を行いました
               </p>
               <Link href="/" className="hover:opacity-80">
-                <p className="text-detail text-end mr-10 mt-3 mb-3">
+                <p className="text-detail text-end mr-10 mt-3 mb-3 md:pb-0 pb-3">
                   詳細を見る
                 </p>
               </Link>
             </div>
           </div>
-          <div className="w-works  shadow-xl mb-6">
+          <div className="md:w-works w-full  shadow-xl mb-6">
             <div
               style={{
                 position: "relative",
@@ -364,7 +367,7 @@ const Home = () => {
                 〇〇マンションの新築美装を行いました
               </p>
               <Link href="/" className="hover:opacity-80">
-                <p className="text-detail text-end mr-10 mt-3 mb-3">
+                <p className="text-detail text-end mr-10 mt-3 mb-3 md:pb-0 pb-3">
                   詳細を見る
                 </p>
               </Link>
@@ -373,7 +376,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="mt-8 h-96"
+        className="mt-8 md:h-96 "
         style={{
           backgroundImage: "url(/contact.jpg)",
           backgroundSize: "cover",
@@ -382,12 +385,12 @@ const Home = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in"
       >
-        <h2 className="text-center text-white pt-24 font-bold text-3xl">
+        <h2 className="text-center text-white md:pt-24 pt-16 font-bold md:text-3xl text-2xl">
           まずは無料見積もりまで
         </h2>
-        <Link href="/" className="block mt-12 text-center">
+        <Link href="/contact" className="block md:mt-12 mt-5 pb-7 text-center">
           <button className="text-center shadow-md w-64 py-4 bg-button font-bold after:pl-1 after:content-['>'] rounded-full hover:opacity-90 duration-500">
-            詳細を見る
+            お問い合わせ
           </button>
         </Link>
       </section>
