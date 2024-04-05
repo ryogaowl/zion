@@ -14,6 +14,7 @@ const Home = () => {
       <header className="px-5 flex h-16 w-full shadow-md justify-between items-center mx-auto md:px-24 fixed z-10 bg-white ">
         <div>
           <h1>
+            aaa
             <Link href="/" className="font-serif text-4xl">
               ZION
             </Link>
