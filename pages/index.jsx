@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 vvv;
+dd;
 const Home = () => {
   return (
     <div className="font-sans" style={{ color: "#242424" }}>
