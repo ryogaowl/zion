@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 aaa;
-dd;
 const Contact = () => {
   return (
     <div className="font-sans" style={{ color: "#242424" }}>
